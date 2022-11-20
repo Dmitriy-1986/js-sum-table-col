@@ -22,11 +22,24 @@
 
 #table, tr, th, td {
     border: 1px solid gray;
+    padding: 5px;
 }
 
 #table {
     border-collapse:collapse;
     width: 100%;
+}
+
+#table tr th {
+    background-color: #ccc;
+}
+
+#table tr:hover {
+    transition: all 500ms;
+}
+
+#table tr:hover {
+    background-color: #ccc;
 }
 
 .total-sum {
